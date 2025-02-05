@@ -25,7 +25,7 @@ COPY rclone.conf /root/.config/rclone/rclone.conf
 COPY copy.sh /copy.sh
 
 #Make it executable
-#RUN chmod +x /copy.sh
+RUN chmod +x /copy.sh
 
 # Verify installation
 RUN rclone version
