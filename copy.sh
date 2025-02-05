@@ -1,2 +1,2 @@
 #!/bin/bash
-rclone sync gdrivezeus:/ archive:ZEUS/My\ Drive/ --progress --drive-acknowledge-abuse
+rclone move gdrivezeus:/ archive:ZEUS/My\ Drive/ --progress --drive-acknowledge-abuse
