@@ -21,10 +21,10 @@ RUN mkdir -p /root/.config/rclone
 # Add rclone configuration
 COPY rclone.conf /root/.config/rclone/rclone.conf
 
-# Copy the script
+# Copy script
 COPY copy.sh /copy.sh
 
-#Make it executable
+# Make script executable
 RUN chmod +x /copy.sh
 
 # Verify installation
