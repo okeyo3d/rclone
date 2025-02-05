@@ -22,12 +22,12 @@ RUN mkdir -p /root/.config/rclone
 COPY rclone.conf /root/.config/rclone/rclone.conf
 
 # Copy the script
-COPY copy.sh /root/copy.sh
+COPY copy.sh /copy.sh
 
 #Make it executable
-RUN chmod +x /root/copy.sh
+RUN chmod +x /copy.sh
 
 # Verify installation
 RUN rclone version
 
-CMD ["/root/copy.sh"]
+CMD ["/copy.sh"]
