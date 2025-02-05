@@ -1,2 +1,2 @@
 #!/bin/bash
-rclone sync okeyo3d:/ fileshare:okeyo3d@gmail.com/My\ Drive/ --progress --drive-acknowledge-abuse
+rclone sync gdrivezeus:/ archive:ZEUS/My\ Drive/ --progress --drive-acknowledge-abuse
